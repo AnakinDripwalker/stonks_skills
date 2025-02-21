@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "stonks_skills",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"name": "Stonks Skills",
 	"description": "L'arbre de compétences des maitres course",
 	"authors": [
