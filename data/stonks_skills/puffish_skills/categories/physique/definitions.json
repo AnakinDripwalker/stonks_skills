@@ -232,6 +232,7 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"cost": 2
 	}
 }
