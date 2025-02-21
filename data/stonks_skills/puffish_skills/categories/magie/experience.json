@@ -1,0 +1,409 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.8 + 10, 250)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:craft_item",
+			"data": {
+				"variables": {
+					"epee_pierre": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "stone_sword"
+								}
+							}
+						]
+					},
+					"pioche_pierre": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "stone_pickaxe"
+								}
+							}
+						]
+					},
+					"hache_pierre": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "stone_axe"
+								}
+							}
+						]
+					},
+					"pelle_pierre": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "stone_shovel"
+								}
+							}
+						]
+					},
+					"houe_pierre": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "stone_hoe"
+								}
+							}
+						]
+					},
+					"epee_fer": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "iron_sword"
+								}
+							}
+						]
+					},
+					"pioche_fer": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "iron_pickaxe"
+								}
+							}
+						]
+					},
+					"hache_fer": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "iron_axe"
+								}
+							}
+						]
+					},
+					"pelle_fer": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "iron_shovel"
+								}
+							}
+						]
+					},
+					"houe_fer": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "iron_hoe"
+								}
+							}
+						]
+					},
+					"epee_or": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "golden_sword"
+								}
+							}
+						]
+					},
+					"pioche_or": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "golden_pickaxe"
+								}
+							}
+						]
+					},
+					"hache_or": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "golden_axe"
+								}
+							}
+						]
+					},
+					"pelle_or": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "golden_shovel"
+								}
+							}
+						]
+					},
+					"houe_or": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "golden_hoe"
+								}
+							}
+						]
+					},
+					"epee_diamant": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "diamond_sword"
+								}
+							}
+						]
+					},
+					"pioche_diamant": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "diamond_pickaxe"
+								}
+							}
+						]
+					},
+					"hache_diamant": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "diamond_axe"
+								}
+							}
+						]
+					},
+					"pelle_diamant": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "diamond_shovel"
+								}
+							}
+						]
+					},
+					"houe_diamant": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "diamond_hoe"
+								}
+							}
+						]
+					},
+					"lingot_netherite": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "netherite_ingot"
+								}
+							}
+						]
+					},
+					"modele_netherite": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "netherite_upgrade_smithing_template"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "epee_pierre | pioche_pierre | hache_pierre | pelle_pierre | houe_pierre",
+						"expression": "2"
+					},
+					{
+						"condition": "epee_fer | pioche_fer | hache_fer | pelle_fer | houe_fer | epee_or | pioche_or | hache_or | pelle_or | houe_or",
+						"expression": "5"
+					},
+					{
+						"condition": "epee_diamant | pioche_diamant | hache_diamant | pelle_diamant | houe_diamant",
+						"expression": "10"
+					},
+					{
+						"condition": "lingot_netherite",
+						"expression": "15"
+					},
+					{
+						"condition": "modele_netherite",
+						"expression": "10"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"inter_enclume": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "custom:interact_with_anvil"
+								}
+							}
+						]
+					},
+					"inter_meuleuse": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "custom:interact_with_grindstone"
+								}
+							}
+						]
+					},
+					"enchanter_item": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "custom:enchant_item"
+								}
+							}
+						]
+					},
+					"degats_infliges": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "custom:damage_dealt"
+								}
+							}
+						]
+					},
+					"augmentation": {
+						"operations": [
+							{
+								"type": "get_increase_amount"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "inter_enclume",
+						"expression": "2"
+					},
+					{
+						"condition": "inter_meuleuse",
+						"expression": "1"
+					},
+					{
+						"condition": "enchanter_item",
+						"expression": "5"
+					},
+					{
+						"condition": "degats_infliges",
+						"expression": "augmentation * 0.1"
+					}
+				]
+			}
+		}
+	]
+}

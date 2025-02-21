@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "stonks_skills",
+	"version": "1.0.1",
+	"name": "Stonks Skills",
+	"description": "L'arbre de compétences des maitres course",
+	"authors": [
+		"Le T"
+	],
+	"contact": {
+		"homepage": "https://theolambinet.github.io"
+	},
+	"license": "GNU",
+	"icon": "assets/stonks_skills/stonksIcone.png",
+	"environment": "*"
+}

@@ -1,0 +1,37 @@
+physique:
+cœur
+vitesse déplacement
+endurance
+regen
+safe_fall_distance
+oxygen_bonus
+VVV
+
+minage:
+
+mining_efficiency
+block_break_speed
+portée
+submerged_mining_speed
+fortune
+VVV
+
+combat:
+armor 4*0.5 / 3*1
+resistance 4*1 / 3*2
+knockback_resistance 3*
+attack_damage 8*0.5 / 6*1
+attack_knockback 5 * 0.5
+attack_speed 6*
+player.sweeping_damage_ratio 5* 0.05 (affilage III 0.75)
+bow_projectile_speed 5*0.2
+VVV
+
+magie :
+luck 6*0.5 V
+burning_time 4*0.25 V
+max_absorption 6*1 3*2 cœurs V
+jump_strength 4*0.21 V
+repair_cost ? 4*5 3*10 (50% en moins) V
+stealth ? 8* 1 (80%) V
+life_steal ? 10*0.5 50 V
