@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(level ^ 1.432 + 10, 200)"
+			"expression": "min(level ^ 1.5 + 15, 125)"
 		}
 	},
 	"sources": [
@@ -30,8 +30,8 @@
 				},
 				"experience": "xp + sante / 20",
 				"anti_farming": {
-					"limit_per_chunk": 15,
-					"reset_after_seconds": 90
+					"limit_per_chunk": 5,
+					"reset_after_seconds": 300
 				}
 			}
 		}

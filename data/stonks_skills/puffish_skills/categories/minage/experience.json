@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(level ^ 2 + 50, 1200)"
+			"expression": "min(level ^ 2.2 + 75, 1300)"
 		}
 	},
 	"sources": [
@@ -164,27 +164,27 @@
 					},
 					{
 						"condition": "fer | quartz",
-						"expression": "2"
-					},
-					{
-						"condition": "redstone | lapis",
 						"expression": "3"
 					},
 					{
-						"condition": "or",
-						"expression": "4"
+						"condition": "redstone | lapis",
+						"expression": "5"
 					},
 					{
-						"condition": "diamant",
+						"condition": "or",
 						"expression": "7"
 					},
 					{
+						"condition": "diamant",
+						"expression": "10"
+					},
+					{
 						"condition": "emeraude",
-						"expression": "9"
+						"expression": "12"
 					},
 					{
 						"condition": "debris",
-						"expression": "12"
+						"expression": "15"
 					}
 				]
 			}

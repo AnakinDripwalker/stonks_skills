@@ -1,16 +1,23 @@
 {
 	"schemaVersion": 1,
 	"id": "stonks_skills",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"name": "Stonks Skills",
 	"description": "L'arbre de compétences des maitres course",
 	"authors": [
 		"Le T"
 	],
 	"contact": {
-		"homepage": "https://theolambinet.github.io"
+		"homepage": "https://theolambinet.github.io",
+		"sources": "https://github.com/AnakinDripwalker/stonks_skills"
 	},
-	"license": "GNU",
+	"license": "GPL-V3",
 	"icon": "assets/stonks_skills/stonksIcone.png",
-	"environment": "*"
+	"environment": "*",
+	"depends": {
+		"minecraft": [
+			"1.21",
+			"1.21.1"
+		]
+	}
 }
