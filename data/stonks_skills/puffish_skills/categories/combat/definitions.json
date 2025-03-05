@@ -47,7 +47,7 @@
 		"cost": 2
 	},
 	"resistance+1": {
-		"title": "+ 1 point de résistance",
+		"title": "+ 0.5 point de résistance",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -60,14 +60,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:resistance",
-					"value": 0.1,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
 		]
 	},
 	"resistance+2": {
-		"title": "+ 2 points de résistance",
+		"title": "+ 1 point de résistance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -86,7 +86,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:resistance",
-					"value": 0.2,
+					"value": 0.1,
 					"operation": "addition"
 				}
 			}

@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(level ^ 2.2 + 75, 1300)"
+			"expression": "min(level ^ 1.8 + 75, 1300)"
 		}
 	},
 	"sources": [

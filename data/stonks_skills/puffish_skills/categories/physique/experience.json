@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(level ^ 1.7 + 15, 150)"
+			"expression": "min(level ^ 1.2 + 20, 175)"
 		}
 	},
 	"sources": [
@@ -18,7 +18,7 @@
 						]
 					}
 				},
-				"experience": "valeurRegen"
+				"experience": "valeurRegen * 1.5"
 			}
 		},
 		{
@@ -54,7 +54,7 @@
 						]
 					}
 				},
-				"experience": "nourriture * 0.5"
+				"experience": "nourriture"
 			}
 		}
 	]

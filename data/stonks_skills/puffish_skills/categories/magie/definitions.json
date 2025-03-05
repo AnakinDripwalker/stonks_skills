@@ -113,7 +113,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.jump_strength",
-					"value": 0.06,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -193,7 +193,7 @@
 		]
 	},
 	"vol_de_vie+5%": {
-		"title": "+ 5% de vol de vie",
+		"title": "+ 1 % de vol de vie",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -212,7 +212,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:life_steal",
-					"value": 0.025,
+					"value": 0.01,
 					"operation": "multiply_base"
 				}
 			}
