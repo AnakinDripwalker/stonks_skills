@@ -1,4 +1,5 @@
 {
+	"level_limit": 66,
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
@@ -351,19 +352,6 @@
 							}
 						]
 					},
-					"enchanter_item": {
-						"operations": [
-							{
-								"type": "get_stat"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"stat": "custom:enchant_item"
-								}
-							}
-						]
-					},
 					"degats_infliges": {
 						"operations": [
 							{
@@ -395,12 +383,44 @@
 						"expression": "1"
 					},
 					{
-						"condition": "enchanter_item",
-						"expression": "5"
-					},
-					{
 						"condition": "degats_infliges",
 						"expression": "augmentation * 0.1"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:enchant_item",
+			"data": {
+				"variables": {
+					"niveaux": {
+						"operations": [
+							{
+								"type": "get_levels"
+							}
+						]
+					},
+					"livre": {
+						"operations": [
+							{
+								"type": "get_enchanted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "enchanted_book"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"expression": "2 * niveaux"
+					},
+					{
+						"condition": "!livre",
+						"expression": "2"
 					}
 				]
 			}

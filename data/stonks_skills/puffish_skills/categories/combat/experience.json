@@ -1,4 +1,5 @@
 {
+	"level_limit": 80,
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
