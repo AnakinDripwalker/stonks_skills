@@ -12,7 +12,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
+					"attribute": "luck",
 					"value": 0.5,
 					"operation": "addition"
 				}
@@ -38,7 +38,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.burning_time",
+					"attribute": "burning_time",
 					"value": -0.25,
 					"operation": "addition"
 				}
@@ -65,7 +65,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_absorption",
+					"attribute": "max_absorption",
 					"value": 2,
 					"operation": "addition"
 				}
@@ -91,7 +91,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_absorption",
+					"attribute": "max_absorption",
 					"value": 4,
 					"operation": "addition"
 				}
@@ -112,7 +112,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.jump_strength",
+					"attribute": "jump_strength",
 					"value": 0.05,
 					"operation": "addition"
 				}

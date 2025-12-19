@@ -12,7 +12,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "player.mining_efficiency",
+					"attribute": "mining_efficiency",
 					"value": 0.75,
 					"operation": "addition"
 				}
@@ -38,7 +38,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "player.mining_efficiency",
+					"attribute": "mining_efficiency",
 					"value": 1.5,
 					"operation": "addition"
 				}
@@ -65,7 +65,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "player.block_break_speed",
+					"attribute": "block_break_speed",
 					"value": 0.075,
 					"operation": "multiply_total"
 				}
@@ -91,7 +91,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "player.block_break_speed",
+					"attribute": "block_break_speed",
 					"value": 0.15,
 					"operation": "multiply_total"
 				}
@@ -118,7 +118,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "player.block_interaction_range",
+					"attribute": "block_interaction_range",
 					"value": 0.5,
 					"operation": "addition"
 				}
@@ -144,7 +144,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "player.entity_interaction_range",
+					"attribute": "entity_interaction_range",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -164,7 +164,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "player.submerged_mining_speed",
+					"attribute": "submerged_mining_speed",
 					"value": 0.2,
 					"operation": "addition"
 				}

@@ -12,7 +12,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor",
+					"attribute": "armor",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -38,7 +38,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor",
+					"attribute": "armor",
 					"value": 2,
 					"operation": "addition"
 				}
@@ -112,7 +112,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.knockback_resistance",
+					"attribute": "knockback_resistance",
 					"value": 0.2,
 					"operation": "addition"
 				}
@@ -132,7 +132,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_damage",
+					"attribute": "attack_damage",
 					"value": 0.5,
 					"operation": "addition"
 				}
@@ -158,7 +158,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_damage",
+					"attribute": "attack_damage",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -179,7 +179,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_knockback",
+					"attribute": "attack_knockback",
 					"value": 0.5,
 					"operation": "addition"
 				}
@@ -205,7 +205,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
+					"attribute": "attack_speed",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -232,7 +232,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "player.sweeping_damage_ratio",
+					"attribute": "sweeping_damage_ratio",
 					"value": 0.05,
 					"operation": "addition"
 				}
