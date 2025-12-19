@@ -1,0 +1,62 @@
+{
+	"level_limit": 77,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.2 + 20, 175)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:heal",
+			"data": {
+				"variables": {
+					"valeurRegen": {
+						"operations": [
+							{
+								"type": "get_heal_amount"
+							}
+						]
+					}
+				},
+				"experience": "valeurRegen * 1.5"
+			}
+		},
+		{
+			"type": "puffish_skills:take_damage",
+			"data": {
+				"variables": {
+					"degats": {
+						"operations": [
+							{
+								"type": "get_taken_damage"
+							}
+						]
+					}
+				},
+				"experience": "degats * 0.5"
+			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"nourriture": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "get_item"
+							},
+							{
+								"type": "get_nutrition"
+							}
+						]
+					}
+				},
+				"experience": "nourriture"
+			}
+		}
+	]
+}

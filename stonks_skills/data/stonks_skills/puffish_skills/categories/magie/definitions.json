@@ -1,0 +1,222 @@
+{
+	"chance+0.5": {
+		"title": "+ 1/2 point de chance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"description": "Augmente la chance du joueur, impactant notamment les butins.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "luck",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"temps_brulure-25%": {
+		"title": "- 25 % de temps de brûlure",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "fire_resistance"
+			}
+		},
+		"description": "Réduit le temps nécessaire au joueur pour arrêter de brûler.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "burning_time",
+					"value": -0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"absorption+1": {
+		"title": "+ 1 coeur d'absorption",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"description": "Ajoute un coeur d'absorption après la fin de l'effet.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_absorption",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"absorption+2": {
+		"title": "+ 2 coeurs d'absorption",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "absorption"
+			}
+		},
+		"description": "Ajoute deux coeurs d'absorption après la fin de l'effet.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_absorption",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"saut+50%": {
+		"title": "Puissance des sauts : + 50 %",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"description": "Augmente la hauteur d'origine des sauts du joueur de 50 %.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "jump_strength",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cout_repar-5%": {
+		"title": "Réparations 5 % moins chères",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "anvil"
+			}
+		},
+		"description": "Les améliorations dans une enclume coûtent 5 % moins cher.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cout_repar-10%": {
+		"title": "Réparations 10 % moins chères",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "mace"
+			}
+		},
+		"description": "Les améliorations dans une enclume coûtent 10 % moins cher.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:repair_cost",
+					"value": -2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"discretion+10%": {
+		"title": "+ 10 % de discrétion",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "cyan_wool"
+			}
+		},
+		"description": "Réduit la distance où le joueur peut être repéré.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stealth",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"vol_de_vie+5%": {
+		"title": "+ 1 % de vol de vie",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_damage"
+			}
+		},
+		"description": "Régénère de la vie à partir des dégats infligés.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"cost": 2
+	}
+}

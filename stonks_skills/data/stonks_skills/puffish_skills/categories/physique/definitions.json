@@ -1,0 +1,238 @@
+{
+	"coeur+0.5": {
+		"title": "+1/2 coeur",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Augmente la santé maximale de 1/2 coeur.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"coeur+1": {
+		"title": "+1 coeur",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "Augmente la santé maximale de 1 coeur.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"vitesse+2.5%": {
+		"title": "+ 2.5 % vitesse de déplacement",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Augmente la vitesse de déplacement de 2.5 %.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.025,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"vitesse+5%": {
+		"title": "+ 5 % vitesse de déplacement",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "Augmente la vitesse de déplacement de 5 %.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"resistchute+1": {
+		"title": "+ 1 bloc de résistance à la chute",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"description": "Augmente la résistance à la chute de 1 bloc, réduisant les dégats de chute totaux.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "safe_fall_distance",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"resistchute+2": {
+		"title": "+ 2 blocs de résistance à la chute",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"description": "Augmente la résistance à la chute de 2 blocs, réduisant les dégats de chute totaux.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "safe_fall_distance",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"resp_aqua": {
+		"title": "+ 20 % apnée",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "water_breathing"
+			}
+		},
+		"description": "Réduit la chance de consommer de l'oxygène de 50%, augmentant le temps d'apnée de 20 %.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "oxygen_bonus",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"regen+25%": {
+		"title": "+ 25 % de régénération de la santé",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"description": "Augmente la vitesse de régénération de la santé de 25 %.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"endurance+0.5": {
+		"title": "+0.5 de capacité d'endurance",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hunger"
+			}
+		},
+		"description": "Augmente la valeur de base d'endurance de 12.5%.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"endurance+1": {
+		"title": "+1 de capacité d'endurance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "hunger"
+			}
+		},
+		"description": "Augmente la valeur de base d'endurance de 25%.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	}
+}

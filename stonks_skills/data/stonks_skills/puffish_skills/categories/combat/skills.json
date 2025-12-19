@@ -1,0 +1,314 @@
+{
+	"6mnnb5pyo4v2vhol": {
+		"definition": "armure+0.5",
+		"x": 62.35382907247957,
+		"y": 36,
+		"root": true
+	},
+	"c11xqbts3bobyh7t": {
+		"definition": "degats+0.5",
+		"x": 0,
+		"y": -72,
+		"root": true
+	},
+	"zgi2mc8qiqufj9a7": {
+		"definition": "resist_recul+20%",
+		"x": -62.35382907247957,
+		"y": 36,
+		"root": true
+	},
+	"oqr7taiwgzzabrf8": {
+		"definition": "recul+0.5",
+		"x": -187.06148721743872,
+		"y": 36,
+		"root": false
+	},
+	"cz09n0fx6z41g0mw": {
+		"definition": "recul+0.5",
+		"x": -145.49226783578564,
+		"y": 180,
+		"root": false
+	},
+	"ym7ovvnl6zt7gzyl": {
+		"definition": "armure+0.5",
+		"x": 20.78460969082652,
+		"y": 108,
+		"root": false
+	},
+	"dxn59cy6shxpwwij": {
+		"definition": "armure+0.5",
+		"x": 145.49226783578567,
+		"y": 36,
+		"root": false
+	},
+	"hjvzbijm4d0nel33": {
+		"definition": "resistance+1",
+		"x": 270.1999259807448,
+		"y": 36,
+		"root": false
+	},
+	"huxl2gt5y23in80c": {
+		"definition": "resistance+1",
+		"x": 145.49226783578567,
+		"y": 108,
+		"root": false
+	},
+	"rtjm36uypyd2ifad": {
+		"definition": "resistance+1",
+		"x": -145.49226783578567,
+		"y": 324,
+		"root": false
+	},
+	"nt5qlm4n4q918h54": {
+		"definition": "recul+0.5",
+		"x": -332.5537550532244,
+		"y": -72,
+		"root": false
+	},
+	"lyiesp3ul639sqpy": {
+		"definition": "recul+0.5",
+		"x": -290.98453567157134,
+		"y": 144,
+		"root": false
+	},
+	"rvs6pf3j08lnnjsv": {
+		"definition": "recul+0.5",
+		"x": -353.3383647440509,
+		"y": 36,
+		"root": false
+	},
+	"gwha2c0wbifp3iyo": {
+		"definition": "resist_recul+20%",
+		"x": -228.63070659909178,
+		"y": -36,
+		"root": false
+	},
+	"aebljoq66n8d9ln7": {
+		"definition": "resist_recul+20%",
+		"x": 353.3383647440509,
+		"y": -36,
+		"root": false
+	},
+	"emtzvjct0q2gej2q": {
+		"definition": "armure+0.5",
+		"x": 249.41531628991828,
+		"y": 144,
+		"root": false
+	},
+	"j3xob09qcx4c5gal": {
+		"definition": "armure+1",
+		"x": 124.70765814495914,
+		"y": 216,
+		"root": false
+	},
+	"wrtp7i5yhy6uqync": {
+		"definition": "armure+1",
+		"x": 207.84609690826522,
+		"y": 216,
+		"root": false
+	},
+	"ugwh2vk4iu85ebtv": {
+		"definition": "resistance+1",
+		"x": -20.784609690826514,
+		"y": 180,
+		"root": false
+	},
+	"7f7do7280jh4ui57": {
+		"definition": "armure+1",
+		"x": 83.1384387633061,
+		"y": 288,
+		"root": false
+	},
+	"69zc2l03fb1l1zsf": {
+		"definition": "resistance+2",
+		"x": 353.3383647440509,
+		"y": 108,
+		"root": false
+	},
+	"70qi8f11ubhbjtf8": {
+		"definition": "resistance+2",
+		"x": 187.06148721743872,
+		"y": 324,
+		"root": false
+	},
+	"p5aoy7b1kzm1k6ca": {
+		"definition": "resistance+2",
+		"x": -20.784609690826528,
+		"y": 324,
+		"root": false
+	},
+	"g8hofw3rasczpa71": {
+		"definition": "degats+0.5",
+		"x": -103.92304845413263,
+		"y": -36,
+		"root": false
+	},
+	"goj8nqqoz70ke5fl": {
+		"definition": "degats+0.5",
+		"x": 0,
+		"y": -144,
+		"root": false
+	},
+	"u7beo3sqfk1lytri": {
+		"definition": "vit_attaque+1",
+		"x": 187.06148721743872,
+		"y": -36,
+		"root": false
+	},
+	"5mc3mc1w9wenaew3": {
+		"definition": "degats_partage+5%",
+		"x": 103.92304845413261,
+		"y": -36,
+		"root": false
+	},
+	"v6pk0zmyc8ax1ucp": {
+		"definition": "vit_arc+20%",
+		"x": 187.0614872174387,
+		"y": -108,
+		"root": false
+	},
+	"7moqdvklghf2x4cz": {
+		"definition": "degats+0.5",
+		"x": 62.35382907247957,
+		"y": -180,
+		"root": false
+	},
+	"abkrqixpaqsd6uns": {
+		"definition": "degats+0.5",
+		"x": -166.2768775266122,
+		"y": -72,
+		"root": false
+	},
+	"6k10ilehjp0qh20n": {
+		"definition": "degats+0.5",
+		"x": 103.92304845413263,
+		"y": -108,
+		"root": false
+	},
+	"q1a3jzwe1xmwdg72": {
+		"definition": "degats+0.5",
+		"x": -62.35382907247958,
+		"y": -180,
+		"root": false
+	},
+	"y9jscoxgjqwy0r19": {
+		"definition": "degats+0.5",
+		"x": -124.70765814495914,
+		"y": -144,
+		"root": false
+	},
+	"0lvux2ev8rb819js": {
+		"definition": "degats+1",
+		"x": -103.92304845413261,
+		"y": -252,
+		"root": false
+	},
+	"c94zc59k6hgnofdl": {
+		"definition": "degats+1",
+		"x": 0,
+		"y": -288,
+		"root": false
+	},
+	"mrbezkmpnso0ee12": {
+		"definition": "degats+1",
+		"x": 103.92304845413261,
+		"y": -252,
+		"root": false
+	},
+	"nk4c0s2471i79od8": {
+		"definition": "degats+1",
+		"x": 270.1999259807448,
+		"y": -36,
+		"root": false
+	},
+	"jridcx2viv2ssag6": {
+		"definition": "vit_arc+20%",
+		"x": 311.76914536239786,
+		"y": -108,
+		"root": false
+	},
+	"nq4jwytecn8yuzwr": {
+		"definition": "vit_arc+20%",
+		"x": -270.1999259807448,
+		"y": -108,
+		"root": false
+	},
+	"j7up2ve9kptc83yu": {
+		"definition": "vit_arc+20%",
+		"x": 207.84609690826525,
+		"y": -288,
+		"root": false
+	},
+	"9fo7ujgj160958q8": {
+		"definition": "vit_arc+20%",
+		"x": -270.1999259807448,
+		"y": -180,
+		"root": false
+	},
+	"afxoygxyijpfppd7": {
+		"definition": "degats+1",
+		"x": -145.49226783578567,
+		"y": -252,
+		"root": false
+	},
+	"x07dhhvph5gvma6k": {
+		"definition": "degats_partage+5%",
+		"x": -249.41531628991828,
+		"y": -144,
+		"root": false
+	},
+	"lbye1tgn890sqa56": {
+		"definition": "degats_partage+5%",
+		"x": -124.70765814495915,
+		"y": -360,
+		"root": false
+	},
+	"hwruv5nr6xrwgg27": {
+		"definition": "degats_partage+5%",
+		"x": 145.49226783578564,
+		"y": -180,
+		"root": false
+	},
+	"v6yaqa1fpj7lpjud": {
+		"definition": "degats_partage+5%",
+		"x": 270.1999259807448,
+		"y": -180,
+		"root": false
+	},
+	"qe5lad69pv5civ2b": {
+		"definition": "vit_attaque+1",
+		"x": 207.84609690826525,
+		"y": -216,
+		"root": false
+	},
+	"07vein4oldot4ivi": {
+		"definition": "vit_attaque+1",
+		"x": 145.49226783578567,
+		"y": -324,
+		"root": false
+	},
+	"an3jahyke86bzabv": {
+		"definition": "vit_attaque+1",
+		"x": 0,
+		"y": -360,
+		"root": false
+	},
+	"3mqhflgy0qv3mklv": {
+		"definition": "vit_attaque+1",
+		"x": -187.06148721743872,
+		"y": -324,
+		"root": false
+	},
+	"404po7dk8ppfanfs": {
+		"definition": "vit_attaque+1",
+		"x": -332.5537550532244,
+		"y": -144,
+		"root": false
+	},
+	"jckeyfkvky4a4gha": {
+		"definition": "degats+1",
+		"x": -228.63070659909175,
+		"y": -252,
+		"root": false
+	}
+}

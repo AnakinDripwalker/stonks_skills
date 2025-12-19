@@ -1,0 +1,221 @@
+{
+	"vit_pioche+10": {
+		"title": "+ 7.5 de vitesse de minage avec des outils",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_pickaxe"
+			}
+		},
+		"description": "Permet de miner plus rapidement avec un outil.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "mining_efficiency",
+					"value": 0.75,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"vit_pioche+20": {
+		"title": "+ 15 de vitesse de minage avec des outils",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_pickaxe"
+			}
+		},
+		"description": "Permet de miner plus rapidement avec un outil.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "mining_efficiency",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"vit_extraction+10%": {
+		"title": "+ 7.5 % de vitesse d'extraction",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"description": "Permet de casser des blocs plus rapidement avec n'importe quel outil, ou à la main.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "block_break_speed",
+					"value": 0.075,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"vit_extraction+20%": {
+		"title": "+ 15 % de vitesse d'extraction",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"description": "Permet de casser des blocs plus rapidement avec n'importe quel outil, ou à la main.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "block_break_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 2
+	},
+	"portee_bloc+1": {
+		"title": "+ 0.5 de portée",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone"
+			}
+		},
+		"description": "Permet d'interagir avec des blocs plus loin.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "block_interaction_range",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"portee_ent+1": {
+		"title": "+ 1 de portée : entité",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "spyglass"
+			}
+		},
+		"description": "Permet d'interagir avec des entités plus lointaines.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "entity_interaction_range",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"vit_minaqua+20%": {
+		"title": "+ 20 % de vitesse de minage aquatique",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "water_breathing"
+			}
+		},
+		"description": "Permet de miner plus rapidement sous l'eau.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "submerged_mining_speed",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"fortune+2.5%": {
+		"title": "+ 3 % de fortune",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "gold_ingot"
+			}
+		},
+		"description": "Augmente la chance d'obtenir des ressources supplémentaires en minant.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"fortune+5%": {
+		"title": "+ 6 % de fortune",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"description": "Augmente la chance d'obtenir des ressources supplémentaires en minant.",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 2
+	}
+}

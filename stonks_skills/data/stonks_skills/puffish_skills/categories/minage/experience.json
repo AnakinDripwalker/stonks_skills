@@ -1,0 +1,194 @@
+{
+	"level_limit": 58,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.8 + 75, 1300)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"durete": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "get_block"
+							},
+							{
+								"type": "get_hardness"
+							}
+						]
+					},
+					"cuivre": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#copper_ores"
+								}
+							}
+						]
+					},
+					"charbon": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#coal_ores"
+								}
+							}
+						]
+					},
+					"fer": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#iron_ores"
+								}
+							}
+						]
+					},
+					"redstone": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#redstone_ores"
+								}
+							}
+						]
+					},
+					"lapis": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#lapis_ores"
+								}
+							}
+						]
+					},
+					"or": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#gold_ores"
+								}
+							}
+						]
+					},
+					"diamant": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#diamond_ores"
+								}
+							}
+						]
+					},
+					"emeraude": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#emerald_ores"
+								}
+							}
+						]
+					},
+					"quartz": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "nether_quartz_ore"
+								}
+							}
+						]
+					},
+					"debris": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "ancient_debris"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"expression": "durete"
+					},
+					{
+						"condition": "cuivre | charbon",
+						"expression": "1"
+					},
+					{
+						"condition": "fer | quartz",
+						"expression": "3"
+					},
+					{
+						"condition": "redstone | lapis",
+						"expression": "5"
+					},
+					{
+						"condition": "or",
+						"expression": "7"
+					},
+					{
+						"condition": "diamant",
+						"expression": "10"
+					},
+					{
+						"condition": "emeraude",
+						"expression": "12"
+					},
+					{
+						"condition": "debris",
+						"expression": "15"
+					}
+				]
+			}
+		}
+	]
+}

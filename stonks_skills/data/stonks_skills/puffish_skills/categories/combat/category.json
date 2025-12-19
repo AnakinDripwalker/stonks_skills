@@ -1,0 +1,11 @@
+{
+    "unlocked_by_default": true,
+    "title": "Combat",
+    "icon" : {
+        "type": "effect",
+        "data": {
+            "effect": "resistance"
+        }
+    },
+    "background": "textures/block/birch_planks.png"
+}
