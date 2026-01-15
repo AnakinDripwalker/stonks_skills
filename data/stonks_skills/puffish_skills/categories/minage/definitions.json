@@ -7,7 +7,7 @@
 				"item": "iron_pickaxe"
 			}
 		},
-		"description": "Permet de miner plus rapidement avec un outil.",
+		"description": "Permet de miner plus rapidement avec un outil.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -33,7 +33,7 @@
 				"item": "diamond_pickaxe"
 			}
 		},
-		"description": "Permet de miner plus rapidement avec un outil.",
+		"description": "Permet de miner plus rapidement avec un outil.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -60,7 +60,7 @@
 				"effect": "haste"
 			}
 		},
-		"description": "Permet de casser des blocs plus rapidement avec n'importe quel outil, ou à la main.",
+		"description": "Permet de casser des blocs plus rapidement avec n'importe quel outil, ou à la main.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -86,7 +86,7 @@
 				"effect": "haste"
 			}
 		},
-		"description": "Permet de casser des blocs plus rapidement avec n'importe quel outil, ou à la main.",
+		"description": "Permet de casser des blocs plus rapidement avec n'importe quel outil, ou à la main.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -113,7 +113,7 @@
 				"item": "stone"
 			}
 		},
-		"description": "Permet d'interagir avec des blocs plus loin.",
+		"description": "Permet d'interagir avec des blocs plus loin.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -139,7 +139,7 @@
 				"item": "spyglass"
 			}
 		},
-		"description": "Permet d'interagir avec des entités plus lointaines.",
+		"description": "Permet d'interagir avec des entités plus lointaines.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -159,7 +159,7 @@
 				"effect": "water_breathing"
 			}
 		},
-		"description": "Permet de miner plus rapidement sous l'eau.",
+		"description": "Permet de miner plus rapidement sous l'eau.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -179,7 +179,7 @@
 				"item": "gold_ingot"
 			}
 		},
-		"description": "Augmente la chance d'obtenir des ressources supplémentaires en minant.",
+		"description": "Augmente la chance d'obtenir des ressources supplémentaires en minant.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -205,7 +205,7 @@
 				"item": "diamond"
 			}
 		},
-		"description": "Augmente la chance d'obtenir des ressources supplémentaires en minant.",
+		"description": "Augmente la chance d'obtenir des ressources supplémentaires en minant.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

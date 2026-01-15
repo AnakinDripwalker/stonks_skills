@@ -7,7 +7,7 @@
 				"effect": "luck"
 			}
 		},
-		"description": "Augmente la chance du joueur, impactant notamment les butins.",
+		"description": "Augmente la chance du joueur, impactant notamment les butins.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -33,7 +33,7 @@
 				"effect": "fire_resistance"
 			}
 		},
-		"description": "Réduit le temps nécessaire au joueur pour arrêter de brûler.",
+		"description": "Réduit le temps nécessaire au joueur pour arrêter de brûler.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -60,7 +60,7 @@
 				"effect": "absorption"
 			}
 		},
-		"description": "Ajoute un coeur d'absorption après la fin de l'effet.",
+		"description": "Ajoute un coeur d'absorption après la fin de l'effet.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -86,7 +86,7 @@
 				"effect": "absorption"
 			}
 		},
-		"description": "Ajoute deux coeurs d'absorption après la fin de l'effet.",
+		"description": "Ajoute deux coeurs d'absorption après la fin de l'effet.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -107,7 +107,7 @@
 				"effect": "jump_boost"
 			}
 		},
-		"description": "Augmente la hauteur d'origine des sauts du joueur de 50 %.",
+		"description": "Augmente la hauteur d'origine des sauts du joueur de 50 %.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -133,7 +133,7 @@
 				"item": "anvil"
 			}
 		},
-		"description": "Les améliorations dans une enclume coûtent 5 % moins cher.",
+		"description": "Les améliorations dans une enclume coûtent 5 % moins cher.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -159,7 +159,7 @@
 				"item": "mace"
 			}
 		},
-		"description": "Les améliorations dans une enclume coûtent 10 % moins cher.",
+		"description": "Les améliorations dans une enclume coûtent 10 % moins cher.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -180,7 +180,7 @@
 				"item": "cyan_wool"
 			}
 		},
-		"description": "Réduit la distance où le joueur peut être repéré.",
+		"description": "Réduit la distance où le joueur peut être repéré.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -206,7 +206,7 @@
 				"effect": "instant_damage"
 			}
 		},
-		"description": "Régénère de la vie à partir des dégats infligés.",
+		"description": "Régénère de la vie à partir des dégats infligés.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

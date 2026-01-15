@@ -7,7 +7,7 @@
 				"effect": "health_boost"
 			}
 		},
-		"description": "Augmente la santé maximale de 1/2 coeur.",
+		"description": "Augmente la santé maximale de 1/2 coeur.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -33,7 +33,7 @@
 				"effect": "health_boost"
 			}
 		},
-		"description": "Augmente la santé maximale de 1 coeur.",
+		"description": "Augmente la santé maximale de 1 coeur.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -54,7 +54,7 @@
 				"effect": "speed"
 			}
 		},
-		"description": "Augmente la vitesse de déplacement de 2.5 %.",
+		"description": "Augmente la vitesse de déplacement de 2.5 %.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -80,7 +80,7 @@
 				"effect": "speed"
 			}
 		},
-		"description": "Augmente la vitesse de déplacement de 5 %.",
+		"description": "Augmente la vitesse de déplacement de 5 %.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -101,7 +101,7 @@
 				"effect": "jump_boost"
 			}
 		},
-		"description": "Augmente la résistance à la chute de 1 bloc, réduisant les dégats de chute totaux.",
+		"description": "Augmente la résistance à la chute de 1 bloc, réduisant les dégats de chute totaux.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -127,7 +127,7 @@
 				"effect": "jump_boost"
 			}
 		},
-		"description": "Augmente la résistance à la chute de 2 blocs, réduisant les dégats de chute totaux.",
+		"description": "Augmente la résistance à la chute de 2 blocs, réduisant les dégats de chute totaux.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -154,7 +154,7 @@
 				"effect": "water_breathing"
 			}
 		},
-		"description": "Réduit la chance de consommer de l'oxygène de 50%, augmentant le temps d'apnée de 20 %.",
+		"description": "Réduit la chance de consommer de l'oxygène de 50%, augmentant le temps d'apnée de 20 %.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -175,7 +175,7 @@
 				"effect": "regeneration"
 			}
 		},
-		"description": "Augmente la vitesse de régénération de la santé de 25 %.",
+		"description": "Augmente la vitesse de régénération de la santé de 25 %.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -196,7 +196,7 @@
 				"effect": "hunger"
 			}
 		},
-		"description": "Augmente la valeur de base d'endurance de 12.5%.",
+		"description": "Augmente la valeur de base d'endurance de 12.5%.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -222,7 +222,7 @@
 				"effect": "hunger"
 			}
 		},
-		"description": "Augmente la valeur de base d'endurance de 25%.",
+		"description": "Augmente la valeur de base d'endurance de 25%.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

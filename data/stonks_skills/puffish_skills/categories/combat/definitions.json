@@ -7,7 +7,7 @@
 				"item": "iron_chestplate"
 			}
 		},
-		"description": "Augmente l'armure de base du joueur.",
+		"description": "Augmente l'armure de base du joueur.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -33,7 +33,7 @@
 				"item": "diamond_chestplate"
 			}
 		},
-		"description": "Augmente l'armure de base du joueur.",
+		"description": "Augmente l'armure de base du joueur.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -54,7 +54,7 @@
 				"item": "chainmail_chestplate"
 			}
 		},
-		"description": "Augmente la résistance du joueur.",
+		"description": "Augmente la résistance du joueur.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -80,7 +80,7 @@
 				"item": "netherite_chestplate"
 			}
 		},
-		"description": "Augmente la résistance du joueur.",
+		"description": "Augmente la résistance du joueur.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -107,7 +107,7 @@
 				"item": "netherite_chestplate"
 			}
 		},
-		"description": "Réduit le recul du joueur de 20 % lorsqu'il subit des dégats.",
+		"description": "Réduit le recul du joueur de 20 % lorsqu'il subit des dégats.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -127,7 +127,7 @@
 				"item": "iron_sword"
 			}
 		},
-		"description": "Augmente les dégats de base du joueur.",
+		"description": "Augmente les dégats de base du joueur.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -153,7 +153,7 @@
 				"item": "netherite_sword"
 			}
 		},
-		"description": "Augmente les dégats de base du joueur.",
+		"description": "Augmente les dégats de base du joueur.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -174,7 +174,7 @@
 				"item": "piston"
 			}
 		},
-		"description": "Augmente le recul infligé par le joueur de 0.5.",
+		"description": "Augmente le recul infligé par le joueur de 0.5.\n\u00A7o\u00A7aCoût : 1 point",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -200,7 +200,7 @@
 				"effect": "speed"
 			}
 		},
-		"description": "Augmente la vitesse d'attaque de 1 point.",
+		"description": "Augmente la vitesse d'attaque de 1 point.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -227,7 +227,7 @@
 				"item": "diamond_sword"
 			}
 		},
-		"description": "Augmente les dégats aux cibles avoisinantes de 20 %.",
+		"description": "Augmente les dégats aux cibles avoisinantes de 20 %.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -254,7 +254,7 @@
 				"item": "bow"
 			}
 		},
-		"description": "Augmente la vitesse de tir à l'arc de 20 %.",
+		"description": "Augmente la vitesse de tir à l'arc de 20 %.\n\u00A7o\u00A7aCoût : 2 points",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
