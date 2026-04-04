@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "stonks_skills",
-	"version": "1.0.7",
-	"name": "Stonks Skills",
+	"id": "stonks",
+	"version": "1.1",
+	"name": "Stonks",
 	"description": "L'arbre de compétences des maitres course",
 	"authors": [
 		"Le T"
@@ -12,9 +12,9 @@
 		"sources": "https://github.com/AnakinDripwalker/stonks_skills"
 	},
 	"license": "GPL-V3",
-	"icon": "assets/stonks_skills/stonksIcone.png",
+	"icon": "assets/stonks/stonksIcone.png",
 	"environment": "*",
 	"depends": {
-		"minecraft": ">=1.21.2 <=1.21.11"
+		"minecraft": ">=1.21.11"
 	}
 }

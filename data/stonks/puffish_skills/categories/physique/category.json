@@ -1,0 +1,11 @@
+{
+    "unlocked_by_default": true,
+    "title": "Physique",
+    "icon" : {
+        "type": "effect",
+        "data": {
+            "effect": "instant_health"
+        }
+    },
+    "background": "textures/block/dirt.png"
+}

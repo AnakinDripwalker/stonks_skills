@@ -1,0 +1,11 @@
+{
+    "unlocked_by_default": true,
+    "title": "Minage",
+    "icon" : {
+        "type": "item",
+        "data": {
+            "item": "iron_pickaxe"
+        }
+    },
+    "background": "textures/block/deepslate.png"
+}
