@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "stonks",
-	"version": "1.1",
+	"version": "1.1.1",
 	"name": "Stonks",
 	"description": "L'arbre de compétences des maitres course",
 	"authors": [
@@ -15,6 +15,6 @@
 	"icon": "assets/stonks/stonksIcone.png",
 	"environment": "*",
 	"depends": {
-		"minecraft": ">=1.21.11"
+		"minecraft": ">=26.1"
 	}
 }
